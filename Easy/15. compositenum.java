@@ -20,7 +20,7 @@ public class Compositenum {
 
     public static boolean isComposite(int num) {
         if (num <= 1) {
-            return false; // 0 and 1 are not composite numbers
+            return false; 
         }
         int divisorCount = 0;
         for (int i = 1; i <= num; i++) {
