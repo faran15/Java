@@ -15,7 +15,7 @@ public class mergearr {
         List<Integer> mergedList = new ArrayList<>();
         int i = 0, j = 0;
 
-        // Merge elements from both arrays into the list
+  
         while (i < arr1.length && j < arr2.length) {
             if (arr1[i] < arr2[j]) {
                 mergedList.add(arr1[i]);
@@ -26,13 +26,11 @@ public class mergearr {
             }
         }
 
-        // Add remaining elements from arr1
         while (i < arr1.length) {
             mergedList.add(arr1[i]);
             i++;
         }
 
-        // Add remaining elements from arr2
         while (j < arr2.length) {
             mergedList.add(arr2[j]);
             j++;
